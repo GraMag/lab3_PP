@@ -1,2 +1,2 @@
-# lab3_PP
+# Laboratorio 3 - Primer Parcial
 Lab3_PP

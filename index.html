@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" type="module" defer></script>
+    <title>Parcial 1 - Gracia Magali</title>
+</head>
+<body>
+    <div class="spinner"></div>
+    <h1>Llena el formulario de Alta</h1>
+    <form name="UserForm" method="post">
+      <fieldset>
+        <legend>Información Del Anuncio</legend>
+        <label>titulo:</label><br />
+        <input
+          type="text"
+          name="titulo"
+          id="titulo"
+          placeholder="Título:"
+        /><br />
+        <label>transaccion:</label><br />
+        <label>venta</label><br />
+        <input
+          type="radio"
+          name="transaccion"
+          id="transaccion"
+          value="venta"
+        /><br />
+        <label>alquiler</label><br />
+        <input
+          type="radio"
+          name="transaccion"
+          id="transaccion"
+          value="alquiler"
+        /><br />
+        <label>descripcion:</label><br />
+        <input
+          type="text"
+          name="descripcion"
+          id="descripcion"
+          placeholder="Descripción:"
+        /><br />
+        <label>precio:</label><br />
+        <input
+          type="text"
+          name="precio"
+          id="precio"
+          placeholder="Precio"
+        /><br />
+        <label>cantidad de baños:</label><br />
+        <input
+          type="text"
+          name="banios"
+          id="banios"
+          placeholder="Baños"
+        /><br />
+        <label>cantidad de autos:</label><br />
+        <input type="text" name="autos" id="autos" placeholder="Autos" /><br />
+        <label>cantidad de dormitorios:</label><br />
+        <input
+          type="text"
+          name="dormis"
+          id="dormis"
+          placeholder="Dormitorios"
+        /><br />
+      </fieldset>
+      <br />
+      <button type="submit" id="guardar">Guardar</button>
+    </form>
+
+    <section class="seccion-tabla">
+      <h2>Listado de anuncios</h2>
+      <button type="submit" id="guardar">Guardar</button>
+      <button type="submit" id="eliminar">Eliminar</button>
+      <button type="submit" id="cancelar">Cancelar</button>
+      <div id="tabla"></div>
+    </section>
+</body>
+</html>
